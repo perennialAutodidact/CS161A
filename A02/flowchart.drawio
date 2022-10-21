@@ -1,0 +1,102 @@
+<mxfile host="65bd71144e">
+    <diagram id="ErjkUglOss5uVpY5DL7k" name="Page-1">
+        <mxGraphModel dx="779" dy="1623" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="33" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=13;fontColor=#000000;strokeColor=#000000;labelBorderColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="-20" width="710" height="1300" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#000000;" edge="1" parent="1" source="3" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Start" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;labelBorderColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="695" y="30" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#000000;" edge="1" parent="1" source="4" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Declare floats jellyBeanWidth, jellyBeanHeight and jellyBeanVol" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;labelBorderColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="101" width="390" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#000000;" edge="1" parent="1" source="5" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Declare const float LOAD_FACTOR and initialize to 0.698" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;labelBorderColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="182" width="390" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#000000;" edge="1" parent="1" source="6" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Declare integers jarVolume and totalJellyBeans" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;labelBorderColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="560" y="262" width="390" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#000000;" edge="1" parent="1" source="7" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Display: Enter the height of one jelly bean:" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontColor=#000000;labelBorderColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="438" width="290" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#000000;" edge="1" parent="1" source="8" target="9">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Input: jellyBeanHeight" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontColor=#000000;labelBorderColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="519" width="290" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#000000;" edge="1" parent="1" source="9" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Display: Enter the width of one jelly bean:" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontColor=#000000;labelBorderColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="600" width="290" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#000000;" edge="1" parent="1" source="10" target="11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Input: jellyBeanWidth" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontColor=#000000;labelBorderColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="680" width="290" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#000000;" edge="1" parent="1" source="11" target="12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Prompt: Enter the volume of the jar:" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontColor=#000000;labelBorderColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="761" width="290" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#000000;" edge="1" parent="1" source="12" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Input: jarVolume" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontColor=#000000;labelBorderColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="842" width="290" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#000000;" edge="1" parent="1" source="13" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="&lt;span style=&quot;font-family: &amp;quot;arial&amp;quot; ; font-size: 14.6667px ; text-align: left&quot;&gt;&lt;font&gt;jellyBeanVol = (5 * PI * (jellyBeanHeight * jellyBeanWidth^2)) / 24&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;labelBackgroundColor=none;fontColor=#000000;labelBorderColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="918" width="450" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#000000;" edge="1" parent="1" source="14" target="15">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="&lt;span style=&quot;font-family: &amp;quot;arial&amp;quot; ; font-size: 14.6667px ; text-align: left&quot;&gt;&lt;font&gt;totalJellyBeans = jarVolume * LOAD_FACTOR / jellyBeanVol&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;labelBackgroundColor=none;fontColor=#000000;labelBorderColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="998" width="450" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=13;fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#000000;" edge="1" parent="1" source="15" target="16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;font style=&quot;font-size: 13px&quot;&gt;Display:&amp;nbsp;&lt;span style=&quot;font-family: arial; text-align: left;&quot;&gt;The number of jelly beans that could fit into the jar is {totalJellyBeans}&lt;/span&gt;&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="495" y="1084" width="520" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="End" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;labelBorderColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="695" y="1160" width="120" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=13;fontColor=#000000;labelBackgroundColor=none;labelBorderColor=none;strokeColor=#000000;" edge="1" parent="1" source="31">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="755" y="438" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="Display: Welcome message" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;labelBackgroundColor=none;fontColor=#000000;labelBorderColor=none;strokeColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="357" width="290" height="50" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
