@@ -2,11 +2,14 @@
 # Author:           Keegan Good
 # Assignment:       A04 (CS161A)
 # Date:             October 22, 2022
-# Description:      
+# Description:      This program will break a user-entered email address
+                    into its constituent parts: username and domain.
+                    If the email address is missing an '@' symbol, an
+                    error will be displayed instead.
 
-# Input:
+# Input:            emailAddress as string
 
-# Output:
+# Output:           username as string, domain as string
 
 
 # Sources: Assignment 4 Document. Zybooks
@@ -25,7 +28,7 @@ int main()
 
    cout << "Welcome to the Email Address Breakdown program!\n";
    cout << "\nEnter an email address: ";
-   cin >> emailAddress; 
+   cin >> emailAddress;
 
    atSignIndex = emailAddress.find('@');
 
@@ -38,8 +41,9 @@ int main()
       cout << "Domain Name: " << domain << endl;
    }
    else {
-      cout << "\nThis is missing the @ sign. Please check and try again later.\n\n";
+      cout << "\nThis is missing the \"@\" sign. Please check and try again "
+              "later.\n";
    }
 
-   cout << "\nThank you for using my program!\n";
+   cout << "\nThank you for using the Email Address Breakdown program!\n";
 }
