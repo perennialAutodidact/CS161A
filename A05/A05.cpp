@@ -34,6 +34,8 @@ int main()
 
    cout << "\nYou entered: " << emailAddress << endl;
 
+   // if the '@' symbol exists in the email address, split
+   // the address at that index to find the username and domain
    if (atSignIndex != string::npos) {
       username = emailAddress.substr(0, atSignIndex);
       domain = emailAddress.substr(atSignIndex + 1, emailAddress.length());
