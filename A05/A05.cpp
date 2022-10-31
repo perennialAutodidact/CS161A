@@ -1,3 +1,17 @@
+/******************************************************************************
+# Author:           Keegan Good
+# Assignment:       A04 (CS161A)
+# Date:             October 22, 2022
+# Description:      
+
+# Input:
+
+# Output:
+
+
+# Sources: Assignment 4 Document. Zybooks
+#******************************************************************************/
+
 #include <iostream>
 #include <string>
 using namespace std;
