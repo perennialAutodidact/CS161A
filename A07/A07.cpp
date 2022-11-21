@@ -20,6 +20,7 @@ using namespace std;
 
 const string WELCOME_MESSAGE = "Welcome to Bean Dreams Coffee Shop!\n";
 
+// product prices
 const double PRICE_AMERICANO = 2.25;
 const double PRICE_CAPPUCCINO = 3.25;
 const double PRICE_MOCHA = 4.25;
@@ -32,6 +33,7 @@ const double PRICE_MUFFIN = 1.99;
 const double PRICE_BAGEL = 2.99;
 const double PRICE_OMELETTE = 6.99;
 
+// define constants for choice/subChoice options
 const char COFFEE = '1';
 const char TEA = '2';
 const char FOOD = '3';
@@ -76,6 +78,7 @@ int main()
       cout << "\nPlease enter the number of your selection:\n> ";
       cin >> choice;
 
+      // ensure the user enters a valid choice
       while (choice < '1' || choice > '4') {
          cout << "\nInvalid selection! Please try again!\n> ";
          cin >> choice;
@@ -90,6 +93,8 @@ int main()
 
          cout << "\nPlease enter the number of your selection:\n> ";
          cin >> subChoice;
+
+         // ensure the user enters a valid subChoice
          while (subChoice < '1' || subChoice > '3') {
             cout << "\nInvalid selection! Please try again!\n> ";
             cin >> subChoice;
@@ -108,6 +113,8 @@ int main()
             cout << "\nMocha added.";
             subTotal += PRICE_MOCHA;
             break;
+         default:
+            break;
          }
 
          break;
@@ -119,6 +126,8 @@ int main()
 
          cout << "\nPlease enter the number of your selection:\n> ";
          cin >> subChoice;
+
+         // ensure the user enters a valid subChoice
          while (subChoice < '1' || subChoice > '3') {
             cout << "\nInvalid selection! Please try again!\n> ";
             cin >> subChoice;
@@ -137,9 +146,10 @@ int main()
             cout << "\nSpiced chai added.";
             subTotal += PRICE_SPICED_CHAI;
             break;
+         default:
+            break;
          }
 
-         break;
       case FOOD:
          cout << "\nWhat kind of food would you like?\n"
               << "1. Muffin\n"
@@ -166,14 +176,16 @@ int main()
             cout << "\nOmelette added.";
             subTotal += PRICE_OMELETTE;
             break;
+         default:
+            break;
          }
 
-         break;
       default:
          break;
       }
 
       cout << "\n\nSubtotal: $" << subTotal << endl;
+
    } while (choice != EXIT);
 
    cout << "\nPlease add a tip. Suggested tip amounts:\n"
@@ -186,6 +198,11 @@ int main()
 
    orderTotal = subTotal + tipAmount;
 
+   // display formatted price data
+   // Subtotal     $0.00
+   // Tip          $0.00
+   // -------------------
+   // Grand Total  $0.00
    cout << left << setfill(' ') << setw(14) << "\nSubtotal"
         << "$" << subTotal << left << setw(14) << "\nTip"
         << "$" << tipAmount << endl
